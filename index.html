@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{ background-color: silver;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<center>
+<body>
+    <h1>Basic Information</h1>
+    <form action="mailto:ranjithven2@gmail.com" method="post">
+        <label for="firstname"><h4>First Name:</h4></label>             <!--this is the firstname box-->
+        <input type="text" placeholder="Your first name" id="firstname">       
+
+        <label for="lastname"><h4>Last Name:</h4></label>              
+        <input type="text" placeholder="Your last name" id="lastname">
+
+        <label for="email"><h4>Email:</h4></label>                                      
+        <input type="email" placeholder="Your email address" id="email">
+
+        <label for="address"><h4>Address:</h4></label>           
+
+        <textarea name="address" id="add" cols="30" rows="10" placeholder="Your address"></textarea>
+
+        <label for="city"><h4>City:</h4></label>                           
+        <input type="text" placeholder="City" id="city">
+
+        <label for="zipcode"><h4>Zip Code:</h4></label>                     
+        <input type="text" placeholder="Zip Code" id="zipcode">
+
+        <label for="state"><h4>State:</h4></label>                          
+        <select>    
+            <option>TamilNadu</option>
+            <option>Karnataka</option>
+            <option>Punjab</option>
+            <option>Bihar</option>
+            <option>Uttar Pradesh</option>
+        </select>
+
+        <label for="country"><h4>Country:</h4></label>              
+        <select name="" id="">
+            <option>India</option>
+            <option>Australia</option>
+            <option>Afghanistan</option>
+            <option>Brazil</option>
+        </select>
+
+        <label for="registratiion"><h4>Registration Package:</h4></label>
+        <input type="radio" name="gender"> Standard Registration($50 USD) <br>
+        <input type="radio" name="gender"> Premium Registration($90 USD) <br>
+        <input type="radio" name="gender"> Corporate Registration($200 USD) <br>
+
+        <label for="accommodation"><h4>Accommodation Package:</h4></label>
+        <input type="radio" name="gende"> None <br>
+        <input type="radio" name="gende"> 2 Days in 3 Hotel($300 USD) <br>
+        <input type="radio" name="gende"> 3 Days in 4 Hotel($550 USD) <br>
+        <input type="checkbox"> I'm also buying the t-shirt of the event($10 USD) <br>
+
+        <label for="discount"><h4>Discount:</h4></label>
+        <input type="radio" name="gen"> Early bird discount(-$10 USD) <br>
+        <input type="radio" name="gen"> Student Discount(-30%) <br>
+        <input type="radio" name="gen"> No thanks,I don't want a discount <br><br>
+ 
+
+        <input type="checkbox"> <strong>I have read and agree to the waiver</strong> <br> 
+        <input type="checkbox"> <strong>I have read and accept the <a href="termsofservice.html">Terms of Service</a>and <a href="privacy.html">Privacy Policy</a></strong> <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    
+</body>
+</center>
+</html>
